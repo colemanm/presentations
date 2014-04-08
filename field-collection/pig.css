@@ -10,6 +10,14 @@ body {
 .green { color:#78a22f; }
 .blue { color:#1daeec; }
 .orange { color: #f48700; }
+.red { color: red; }
+
+.no-margin { margin-top:0; }
+.no-padding { padding-top:0; }
+.padding-20 { padding-top:20px !important; }
+.padding-40 { padding-top:40px !important; }
+.padding-60 { padding-top:60px !important; }
+.i { font-style:italic; }
 
 h1, h2, h3, p { margin:0; }
 
@@ -18,6 +26,9 @@ h3 { margin-bottom: 10px; }
 em, a {
   font-style:normal;
 }
+
+ul { list-style-type:none; }
+ul li { margin-bottom:10px; }
 
 a {
   background: #78a22f;
@@ -29,7 +40,10 @@ a {
 img { width:100%; }
 
 .bold { font-weight:bold; }
+.h75 { font-size:75px; }
 .h100 { font-size:100px; }
+.h120 { font-size:120px; }
+.h200 { font-size:200px; }
 .h300 { font-size:300px; }
 
 div.slide {

@@ -12,7 +12,7 @@ window.addEventListener('load', function() {
         cur = Math.floor(w.scrollY / w.innerHeight);
         if (w.location.hash !== cur) w.location.hash = cur;
     });
-    d.addEventListener('click', function() { go(++cur); });
+    // d.addEventListener('click', function() { go(++cur); });
     d.addEventListener('keydown', function(e) {
         if (e.which === 39) go(Math.min(++cur));
         if (e.which === 37) go(Math.max(0, --cur));
