@@ -1,0 +1,44 @@
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  background:#fff;
+  background-size:100%;
+  margin:0;
+  padding:0;
+  color:#444;
+}
+
+.green { color:#78a22f; }
+.blue { color:#1daeec; }
+.orange { color: #f48700; }
+
+h1, h2, h3, p { margin:0; }
+
+h3 { margin-bottom: 10px; }
+
+em, a {
+  font-style:normal;
+}
+
+a {
+  background: #78a22f;
+  color:#fff;
+  padding: 5px;
+  text-decoration:none;
+}
+
+img { width:100%; }
+
+.bold { font-weight:bold; }
+.h100 { font-size:100px; }
+.h300 { font-size:300px; }
+
+div.slide {
+  padding:10%;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  cursor:pointer;
+  cursor:hand;
+  font-size:60px;
+  overflow:hidden;
+  background-size:100%;
+}
