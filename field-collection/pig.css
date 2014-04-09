@@ -11,6 +11,9 @@ body {
 .blue { color:#1daeec; }
 .orange { color: #f48700; }
 .red { color: red; }
+.white { color: #fff; }
+
+.bg-blue { background-color: #1daeec; }
 
 .no-margin { margin-top:0; }
 .no-padding { padding-top:0; }
@@ -18,6 +21,7 @@ body {
 .padding-40 { padding-top:40px !important; }
 .padding-60 { padding-top:60px !important; }
 .i { font-style:italic; }
+.shadow { text-shadow: 5px 5px 0em black; }
 
 h1, h2, h3, p { margin:0; }
 
