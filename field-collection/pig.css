@@ -13,15 +13,26 @@ body {
 .red { color: red; }
 .white { color: #fff; }
 
-.bg-blue { background-color: #1daeec; }
+.bg-blue { background-color:#1daeec; }
+.bg-white { background-color:#fff; }
+.bg-green { background-color:#78a22f; }
+.bg-yellow { background-color:#e8ff09; }
+.bg-orange { background-color:#ffcb26; }
+.bg-purple { background-color:#8f3bae; }
 
 .no-margin { margin-top:0; }
 .no-padding { padding-top:0; }
 .padding-20 { padding-top:20px !important; }
 .padding-40 { padding-top:40px !important; }
 .padding-60 { padding-top:60px !important; }
+.pad-bottom { padding-bottom:40px; }
 .i { font-style:italic; }
-.shadow { text-shadow: 5px 5px 0em black; }
+.shadow { text-shadow:5px 5px 0em black; }
+.center { text-align:center; margin:0 auto; }
+.text-pad { padding:20px; }
+
+.left { float:left; }
+.right { float:right; }
 
 h1, h2, h3, p { margin:0; }
 
