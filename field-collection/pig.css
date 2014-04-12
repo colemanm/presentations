@@ -9,9 +9,10 @@ body {
 
 .green { color:#78a22f; }
 .blue { color:#1daeec; }
-.orange { color: #f48700; }
-.red { color: red; }
-.white { color: #fff; }
+.orange { color:#f48700; }
+.red { color:red; }
+.white { color:#fff; }
+.yellow { color:#e8ff09; }
 
 .bg-blue { background-color:#1daeec; }
 .bg-white { background-color:#fff; }
@@ -19,6 +20,9 @@ body {
 .bg-yellow { background-color:#e8ff09; }
 .bg-orange { background-color:#ffcb26; }
 .bg-purple { background-color:#8f3bae; }
+.bg-pink { background-color:#ff1759; }
+.bg-black { background-color:#000; }
+.bg-darkgrey { background-color:#333; }
 
 .no-margin { margin-top:0; }
 .no-padding { padding-top:0; }
@@ -26,6 +30,7 @@ body {
 .padding-40 { padding-top:40px !important; }
 .padding-60 { padding-top:60px !important; }
 .pad-bottom { padding-bottom:40px; }
+.pad-bottom-extra { padding-bottom:100px; }
 .i { font-style:italic; }
 .shadow { text-shadow:5px 5px 0em black; }
 .center { text-align:center; margin:0 auto; }
